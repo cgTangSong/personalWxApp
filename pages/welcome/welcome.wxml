@@ -1,0 +1,12 @@
+<view class="container">
+    <image src='/images/bg.png' mode='aspectFill' class='welcome-bg'></image>
+
+    <view class='welcome'>
+        <image class="user_touxiang" src="{{userInfo.avatarUrl}}"></image>
+        <text class="user_name">Hello,{{userInfo.nickName}}</text>
+        <view class="moto_wrap" bindtap="onTap">
+            <text class="moto">缘聚于此</text>
+        </view>
+    </view>
+
+</view>

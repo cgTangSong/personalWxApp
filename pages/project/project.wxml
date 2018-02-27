@@ -1,0 +1,62 @@
+<!--pages/project/project.wxml-->
+<view class='container'>
+    <title>项目经验</title>
+
+    <view class='personal-info work-info'>
+        <dl>
+            <dt>项目名称：</dt>
+            <dd>易达丰PC端与移动端官网</dd>
+        </dl>
+
+        <dl>
+            <dt>链接：</dt>
+            <dd>
+                <text selectable='true'>http://www.zjyl365.com</text>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt>技术栈：</dt>
+            <dd>H5+CSS3+JS+JQ</dd>
+        </dl>
+    </view>
+
+    <view class='introduce'>
+        <i>项目描述:</i>
+
+        <ul>
+            <li>公司初建，和UI一起为公司做的官网，我负责将UI的设计实现，并负责后期维护</li>
+            <li>官网页面总体较为简单，主要分首页，产品，公司历程页，关于我们页，加入我们页</li>
+            <li>对于官网一开始计划使用响应式布局完成PC与移动端的协同开发，后来综合考虑之下，改为另写一套移动端官网，使用时在JS里加以判断用户使用何种客户端打开网站，如若是移动端，则自动跳转到移动端官网网址。</li>
+            <li>在初期开发与后期维护时，加入了一些动画效果以增强用户体验，动画使用CSS3技术与JQ实现，并自己写了一套轮播插件和登录注册验证插件供自己工作中引用</li>
+        </ul>
+    </view>
+
+    <view class='personal-info work-info'>
+        <dl>
+            <dt>项目名称：</dt>
+            <dd>升鲜宝web商城</dd>
+        </dl>
+
+        <dl>
+            <dt>gitHub：</dt>
+            <dd>
+                <text selectable='true'>http://www.zjyl365.com</text>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt>技术栈：</dt>
+            <dd>H5+CSS3+JQ+vue2.0+vue-router</dd>
+        </dl>
+    </view>
+
+    <view class='introduce'>
+        <i>项目描述:</i>
+
+        <ul>
+            <li>公司初建，和UI一起为公司做的官网，我负责将UI的设计实现，并负责后期维护</li>
+            
+        </ul>
+    </view>
+</view>

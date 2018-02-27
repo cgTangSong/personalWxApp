@@ -1,0 +1,26 @@
+<!--movies.wxml-->
+<import src="/pages/movies/movieList/movieList.wxml" />
+<import src="/pages/movies/movieItems/movieItems.wxml" />
+
+<view class='container' wx:if="{{isLoading}}">
+    <view class="moviesView">
+        <view class='search'>
+            <view class="searchInput">
+                <icon type="search" class="searchIcon" size="16" color="#999999" />
+                <input type="text" maxlength="12" placeholder="输入电影名称查询" placeholder-class="placeholder" bindfocus="onBindfocus" bindchange="onBindchang" />
+                <icon type="clear" class="searchIcon" size="16" color="#999999" bindtap="hideSearchView" wx:if="{{searchShow}}" />
+            </view>
+        </view>
+        <!-- <block wx:for="{{moviesList}}" wx:for-item="movies" wx:key="key"> -->
+        <view wx:if="{{bodyShow}}">
+            <template is="movieList" data="{{...in_theaters}}" />
+            <template is="movieList" data="{{...coming_soon}}" />
+            <template is="movieList" data="{{...top250}}" />
+        </view>
+        <!-- </block> -->
+    </view>
+    <!--搜索页面  -->
+    <view class="searchView" wx:if="{{searchShow}}">
+        <template is="movieItems" data="{{...searchMov}}" />
+    </view>
+</view>

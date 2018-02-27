@@ -1,0 +1,13 @@
+/* pages/animationTest/animationTest.wxss */
+.animation-view{
+    position: fixed;
+    top: 200rpx;
+    left: 200rpx;
+}
+
+.button{
+    width: 100%;height: auto;
+    position: fixed;
+    bottom: 0;
+    margin-top: 500rpx;
+}

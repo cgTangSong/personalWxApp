@@ -1,0 +1,109 @@
+<!--pages/index/index.wxml-->
+<view class='container'>
+    <title>个人信息一览</title>
+
+    <view class='personal-info'>
+        <dl>
+            <dt>姓名：</dt>
+            <dd>张伟杰</dd>
+        </dl>
+
+        <view>
+            <dl>
+                <dt>性别：</dt>
+                <dd>♂</dd>
+            </dl>
+            <dl>
+                <dt>民族：</dt>
+                <dd>汉</dd>
+            </dl>
+        </view>
+
+        <dl>
+            <dt>学历：</dt>
+            <dd>本科</dd>
+        </dl>
+
+        <dl>
+            <dt>专业：</dt>
+            <dd>计算机科学与技术</dd>
+        </dl>
+
+        <dl>
+            <dt>毕业学校：</dt>
+            <dd>安徽安庆大学</dd>
+        </dl>
+
+        <dl bindtap='contactMe'>
+            <dt>联系电话：</dt>
+            <dd class="text-color">15055655919</dd>
+        </dl>
+
+        <dl class='wechat'>
+            <dt>微信：</dt>
+            <dd>
+                <text selectable='true'>ZhangVJ1995</text>
+            </dd>
+            <image src='/images/icon/qr_code.png' mode='aspectFit' bindtap='addWeChat'></image>
+        </dl>
+
+        <dl>
+            <dt>邮箱：</dt>
+            <dd>
+                <text selectable='true'>zhangvj1995@163.com</text>
+            </dd>
+        </dl>
+
+        <dl bindtap="prompt" bindlongpress="longTap">
+            <dt>GitHub：</dt>
+            <dd>
+                <text selectable='true'>https://github.com/cgTangSong</text>
+            </dd>
+        </dl>
+
+        <dl bindtap="prompt" bindlongpress="longTap">
+            <dt>码云：</dt>
+            <dd>
+                <text selectable='true'>https://gitee.com/TangSongv</text>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt>出生年月：</dt>
+            <dd>1995年1月27日</dd>
+        </dl>
+
+        <dl>
+            <dt>籍贯：</dt>
+            <dd>安徽寿县</dd>
+        </dl>
+
+
+        <!-- <web-view src="https://mp.weixin.qq.com/"></web-view> -->
+
+    </view>
+
+    <view class='introduce'>
+        <i>职业技能：</i>
+
+        <ul>
+            <li>1.熟练运用HTML+CSS来制作符合W3C标准的静态页面，代码具有良好的兼容性。</li>
+            <li>2.熟悉HTML5新增的VIDEO、AUDIO、CANVAS、SVG等功能，实现网页的多功能化，熟练运用form表单新特性。</li>
+            <li>3.熟练运用less编写网页样式语言，提高后期的可维护性。</li>
+            <li>4.熟练运用原生JS代码编写程序，熟悉DOM，BOM，熟悉面向对象的开发方法，了解ES6新特性。</li>
+            <li>5.熟练应用jQuery函数库，可以进行快速开发，实现对DOM操作的代码简化。</li>
+            <li>6.熟练运用ajax技术与服务器端进行交互，实现网页的异步加载功能。</li>
+            <li>7.熟练应用VUE2.0框架及其相关技术栈，了解AngularJS框架及简单php语言。</li>
+            <li>8.熟练开发微信小程序，熟悉模块化开发，了解微信小程序运行机制。</li>
+            <li>9.能够使用PhotoShop进行切图和简单的设计调整。</li>
+        </ul>
+    </view>
+
+    <!-- 底线 -->
+    <view class='base-line'>—————— 哼，我是有底线的! ——————</view>
+
+    <view class='wx-qr-code' wx:if='{{isCheckCode}}' style='background: rgba(0, 0, 0, {{opticy}})'>
+        <image src='/images/icon/myWeChat.png' mode='aspectFit' bindtap='saveQrCode' animation="{{animationData}}"></image>
+        <icon type="clear" size="29" color='#e1e1e1' catchtap='cancelQr' animation="{{animationData}}" />
+    </view>
+</view>

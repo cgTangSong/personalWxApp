@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "pages/welcome/welcome",
+        "pages/project/project",
+        "pages/index/index",
+        "pages/workExperience/workExperience",
+        "pages/movies/movies",
+        "pages/animationTest/animationTest",
+        "pages/movies/movieDetail/movieDetail",
+        "pages/movies/moreMovies/moreMovies",
+        "pages/test/test"
+    ],
+    "window": {
+        "navigationBarTitleText": "缘聚长弓",
+        "navigationBarTextStyle": "#FFF",
+        "navigationBarBackgroundColor": "#333",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "dark",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "default"
+    },
+    "tabBar": {
+        "color": "#333333",
+        "selectedColor": "#25A5FF",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/icon/index.png",
+                "selectedIconPath": "/images/icon/index_select.png"
+            },
+            {
+                "pagePath": "pages/workExperience/workExperience",
+                "text": "工作",
+                "iconPath": "/images/icon/work.png",
+                "selectedIconPath": "/images/icon/work_select.png"
+            },
+            {
+                "pagePath": "pages/project/project",
+                "text": "项目",
+                "iconPath": "/images/icon/reading.png",
+                "selectedIconPath": "/images/icon/reading_select.png"
+            },
+            {
+                "pagePath": "pages/movies/movies",
+                "text": "娱乐",
+                "iconPath": "/images/icon/movie.png",
+                "selectedIconPath": "/images/icon/movie_select.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+/* pages/project/project.wxss */
+@import "/pages/index/index.wxss";
+
+.introduce i{
+    color: black;
+}

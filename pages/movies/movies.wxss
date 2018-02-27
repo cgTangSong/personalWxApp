@@ -1,0 +1,50 @@
+/* movies.wxss */
+@import "movieList/movieList.wxss";
+@import "/pages/movies/movieItems/movieItems.wxss";
+
+page {
+    background-color: #fff;
+    padding: 100rpx 0 0 0;
+}
+
+.moviesView {
+    background-color: #b7b2b9;
+}
+
+.search{
+    width: 100%;height: 100rpx;
+    display: flex;
+    background: rgb(240, 240, 240);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.searchInput {
+    width: 80%;
+    height: 60rpx;
+    margin: 0 auto;
+    border-radius: 30rpx;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+.searchIcon {
+    float: left;
+    margin: auto 20rpx auto 20rpx;
+}
+
+.placeholder {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.searchInput input {
+    width: 600rpx;
+    height: 100%;
+    font-size: 28rpx;
+}

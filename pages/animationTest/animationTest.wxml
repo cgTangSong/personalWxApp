@@ -1,0 +1,10 @@
+<!--pages/animationTest/animationTest.wxml-->
+<view class='container'>
+    <view  class='animation-view' animation="{{animationData}}" style="background:red;height:100rpx;width:100rpx"></view>
+
+    <view class='button'>
+        <button bindtap='rotateAndScale'>动画2</button>
+        <button bindtap='rotateThenScale'>动画3</button>
+        <button bindtap='rotateAndScaleThenTranslate'>动画4</button>
+    </view>
+</view>
