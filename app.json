@@ -1,14 +1,14 @@
 {
     "pages": [
         "pages/welcome/welcome",
+        "pages/test/test",
         "pages/project/project",
         "pages/index/index",
         "pages/workExperience/workExperience",
         "pages/movies/movies",
-        "pages/animationTest/animationTest",
         "pages/movies/movieDetail/movieDetail",
         "pages/movies/moreMovies/moreMovies",
-        "pages/test/test"
+        "pages/animationTest/animationTest"
     ],
     "window": {
         "navigationBarTitleText": "缘聚长弓",

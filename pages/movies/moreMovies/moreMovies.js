@@ -85,6 +85,9 @@ Page({
             newMovies.push(movie_data);
         }
         // console.log('下滑测试')
+
+        console.log("用户上拉加载了");
+
         //通过判断，拼接 旧的数据和新更新的数据。
         if (newMovies.length == 0) {
             // 关闭 正在加载提示

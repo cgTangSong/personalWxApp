@@ -1,32 +1,8 @@
 /* pages/test/test.wxss */
-.buydes-dialog-container{  
-    width: 100%;  
-    height: 100%;  
-    justify-content: space-between;  
-    background-color:rgba(15, 15, 26, 0.7);  
-    position: fixed;  
-    z-index: 999;  
-}  
-  
-.buydes-dialog-container-top{
-    width: 100%;height: 100rpx;  
-    flex-grow: 1;  
-}  
-  
-.buydes-dialog-container-bottom{
-    width: 100%;height: auto;  
-    display: flex; 
-    flex-flow: column; 
-    flex-grow: 0;  
-    position: absolute;
-    bottom: 0;
-}  
-  
-.buydes-dialog-container-bottom-item{ 
-    width: 100%;
-    display: block; 
-    padding:24rpx;  
-    border-bottom: 1rpx solid #eeeeee;  
-    color: white;
-    text-align: center;
-} 
+#myMap {
+    margin-bottom: 50rpx;
+}
+
+button{
+    margin-bottom: 5rpx;
+}
